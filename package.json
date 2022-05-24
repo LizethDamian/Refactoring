@@ -1,0 +1,28 @@
+{
+    "name": "refactoring",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test.js",
+        "linter": "node ./node_modules/eslint/bin/eslint.js .",
+        "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+
+    },
+    "keywords": [],
+    "author": "Lizeth Damian",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LizethDamian/Refactoring.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LizethDamian/Refactoring/issues"
+    },
+    "homepage": "https://github.com/LizethDamian/Refactoring#readme",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "jest": "^28.1.0"
+    }
+}
